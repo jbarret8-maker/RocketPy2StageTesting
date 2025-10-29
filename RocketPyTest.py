@@ -124,12 +124,12 @@ drogue = calisto.add_parachute(
 
 # Creates a flight object which runs the simulation and stores data
 test_flight = Flight(
-    rocket=calisto, environment=env, rail_length=5.2, inclination=85, heading=0
+    rocket=calisto, environment=env, rail_length=5.2, inclination=85, heading=0, max_time=60
     )
 
 # Displays all plots created by test_flight
 # TODO: Uncomment to see outputs
-# test_flight.all_info()
+test_flight.all_info()
 
 # Prints the rocket conditions at ignition
 test_flight.prints.initial_conditions()

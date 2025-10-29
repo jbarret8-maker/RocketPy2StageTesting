@@ -73,7 +73,7 @@ stage2Motor = SolidMotor(
 
 stage1Motor.draw()
 
-bothStages = Rocket(
+booster = Rocket(
     radius=127 / 2000,
     mass=14.426,
     inertia=(6.321, 6.321, 0.034),
